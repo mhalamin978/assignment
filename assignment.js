@@ -1,5 +1,5 @@
-
-
+// https://github.com/mhalamin978/assignment
+// 01.Kilometer to meter
 function kilometerToMeter(kilo) {
     if (kilo < 0) {
         return "Try a valid number"
@@ -8,7 +8,7 @@ function kilometerToMeter(kilo) {
         return meter;
     }
 }
-
+// 02. Budget Calculator
 function budgetCalculator([watch, mobile, laptop]) {
     if (watch < 0 || mobile < 0 || laptop < 0) {
         return "Please try a valid Number"
@@ -20,7 +20,7 @@ function budgetCalculator([watch, mobile, laptop]) {
         return total;
     }
 }
-
+// 03. Hotel Cost
 function hotelCost(Day) {
     var Bill = 0;
     if (Day < 0) {
@@ -43,7 +43,7 @@ function hotelCost(Day) {
         return Bill;
     }
 }
-
+//04. Mega Friend
 function megaFriend(array) {
     var lgth = 0;
     var longest;
@@ -58,13 +58,11 @@ function megaFriend(array) {
 }
 
 
-var result = megaFriend(["karim","rahman","kalamuddin"]);
-console.log(result);
-
-var result = hotelCost(71);
-console.log(result);
-
-var result = kilometerToMeter(9);
-console.log(result);
-var result2 = budgetCalculator([2, 3, 0]);
-console.log(result2);
+// var result = megaFriend(["karim","rahman","kalamuddin"]);
+// console.log(result);
+// var result = hotelCost(71);
+// console.log(result);
+// var result = kilometerToMeter(9);
+// console.log(result);
+// var result2 = budgetCalculator([2, 3, 0]);
+// console.log(result2);
